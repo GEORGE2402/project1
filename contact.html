@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>my page</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<style>
+		body,
+		html {
+			height: 100%;
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.hero-image {
+			background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.15)), url("assets/img/newheader00.fw.png");
+			height: 30%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+
+		.hero-text {
+			text-align: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #fff;
+		}
+
+		.hero-text button {
+			border: none;
+			outline: 0;
+			display: inline-block;
+			padding: 10px 25px;
+			color: black;
+			background-color: #ddd;
+			text-align: center;
+			cursor: pointer;
+		}
+
+		.hero-text button:hover {
+			background-color: #555;
+			color: white;
+		}
+
+	</style>
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+	</style>
+	<style>
+		* {
+			box-sizing: border-box;
+			/* Style the header */
+		}
+
+		/* Style the navigation menu */
+		nav {
+			-webkit-flex: 1;
+			-ms-flex: 1;
+			flex: 1;
+			background: #ccc;
+			padding: 20px;
+			color: #F16520;
+		}
+
+		/* Style the list inside the menu */
+		nav ul {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		/* Style the content */
+		article {
+			-webkit-flex: 3;
+			-ms-flex: 3;
+			flex: 3;
+			background-color: #f1f1f1;
+			padding: 10px;
+		}
+
+		@media (max-width: 500px) {
+			section {
+				-webkit-flex-direction: column;
+				flex-direction: column;
+			}
+
+	</style>
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+	</style>
+	<style>
+		header {
+			background-color: #666;
+			padding: 30px;
+			text-align: center;
+			font-size: 40px;
+			color: white;
+		}
+
+		/* Container for flexboxes */
+		section {
+			display: -webkit-flex;
+			display: flex;
+		}
+
+		/* Style the navigation menu */
+		nav {
+			-webkit-flex: 1;
+			-ms-flex: 1;
+			flex: 1;
+			background: #ccc;
+			padding: 20px;
+			color: #F16520;
+		}
+
+		/* Style the list inside the menu */
+		nav ul {
+			list-style-type: none;
+			padding: 0;
+
+
+		}
+
+		/* Style the content */
+		article {
+			-webkit-flex: 3;
+			-ms-flex: 3;
+			flex: 3;
+			background-color: #f1f1f1;
+			padding: 10px;
+		}
+
+		/* Style the footer */
+		footer {
+			background-color: #777;
+			padding: 10px;
+			text-align: center;
+			color: white;
+		}
+
+		@media (max-width: 500px) {
+			section {
+				-webkit-flex-direction: column;
+				flex-direction: column;
+			}
+
+	</style>
+
+	<style>
+		#div {
+			border: 2px solid gray;
+			padding: 8px;
+			text-align: center;
+		}
+
+		h1 {
+			text-align: center;
+			text-transform: uppercase;
+			color: #fff;
+
+		}
+
+		p {
+			text-indent: 50px;
+			text-align: justify;
+			letter-spacing: 3px;
+		}
+
+		a {
+			text-decoration: none;
+			color: #008CBA;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<div class="header">
+		<div class="inner_header">
+			<div class="logo_container">
+				<img alt="logo" src="assets/img/sglogo2.fw.png">
+
+			</div>
+
+			<ul class="navigation">
+				<a href="index.html">
+					<li>Home</li>
+				</a>
+				<a href="contact.html">
+					<li>Contact</li>
+				</a>
+				<a href="portfolio.html">
+					<li>Portfolio</li>
+				</a>
+				<a href="about.html">
+					<li>About</li>
+				</a>
+			</ul>
+		</div>
+	</div>
+	<!--header-->
+
+	<div class="hero-image">
+		<div class="hero-text">
+			<h1 style="font-size:50px">PROJECT #1</h1>
+			<p>
+				<h2>Shurland George</h2>
+			</p>
+		</div>
+	</div>
+	<!--contact form-->
+<div class="contact-form-container">
+  <h1>Contact Me</h1>
+	<h3 style="text-align: center">For all your Web Development needs</h3>
+  <form>
+    <input type="text" id="name" name="name" placeholder="Your Name">
+
+    <input type="email" placeholder="Email Address" size="30" required></label>
+
+    <textarea id="subject" name="subject" placeholder="Message" style="height:200px" required></textarea>
+
+    <input type="submit" value="Send">
+	
+  </form>
+</div>
+<p id="maps1">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.934474421241!2d-73.98800318428789!3d40.69744074644249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a35753508e3%3A0x5578f8cb685c5c34!2sHoward+Building!5e0!3m2!1sen!2sus!4v1559148401317!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+<br>
+	<br>
+ 
+
+	<div id="cta">
+		<div class="container">
+			<h3 style="text-align: center;">FOLLOW US</h3>
+			<br>
+			<a class="social" href="#"><i class="fab fa-instagram" style="font-size: 50px"></i></a>
+			<a class="social" href="#"><i class="fab fa-twitter" style="font-size: 50px"></i></a>
+			<a class="social" href="#"><i class="fab fa-facebook" style="font-size: 50px"></i></a>
+		</div>
+	</div>
+	<div id="footerx">
+		<div id="main">
+		</div>
+	</div>
+	
+
+	
+	<footer>
+		<p style="text-align: center;">&copy; CopyRight 2019. <a class="link" href="contact.html">Shurland George</a> All Rights Reserved.</p>
+	</footer>
+
+</body>
+
+</html>
